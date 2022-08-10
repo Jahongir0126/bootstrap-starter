@@ -1,0 +1,30 @@
+.row__card{
+    background-color: #004047;
+    & h2{
+        color: #FFFFFF;
+    }
+}
+.my__card{
+    background-color: #012F34; 
+    &::after{
+    content: url(../../img/Group-13.png);
+    position: absolute;
+    top: 90%;
+    left: 40%;
+
+}}
+.card_7{
+    background  : #002529;   
+    &::after{
+    content: url(../../img/Group-14.png);
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+}
+h5{
+    color: #79C8C7 !important;
+}
+p{
+    color: #FFFFFF;
+}
